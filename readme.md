@@ -14,3 +14,9 @@ In this project, you need to model the provided dataset into a star schema and i
 ## Key Deliverables
 - Schema Design
 - A Document that details the comparison between different trails.
+
+## Steps for the implementation:
+1- build docker compose file (docker-compose build -d)
+2- run the containers (docker start namenode datanode1 datanode2 datanode3)
+3- then run the main code (the application)
+
